@@ -1,0 +1,16 @@
+name: adass2025 # Name of your environment
+channels:    # Package sources
+  - conda-forge
+  - defaults
+dependencies:  # List of packages to install
+  - python=3.11  # Specify Python version
+  - notebook
+  - pytest
+  - coverage
+  - pytest-cov
+  - mypy
+  - black # formatter
+  - requests
+  - pip:
+    - selenium 
+
