@@ -11,6 +11,7 @@ dependencies:  # List of packages to install
   - mypy
   - black # formatter
   - requests
+  - pip
   - pip:
     - selenium 
 
